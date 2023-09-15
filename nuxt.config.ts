@@ -14,4 +14,16 @@ export default defineNuxtConfig({
       },
     },
   },
+  runtimeConfig: {
+    public: {
+      algolia: {
+        applicationId: "R2IYF7ETH7",
+        apiKey: "599cec31baffa4868cae4e79f180729b",
+        langAttribute: "lang",
+        docSearch: {
+          indexName: "docsearch",
+        },
+      },
+    },
+  },
 });
