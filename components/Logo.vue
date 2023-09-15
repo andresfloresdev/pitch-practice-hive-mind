@@ -1,3 +1,3 @@
 <template>
-  <img src="/logo-hivemind-pitch-practice.svg" />
+  <img src="/logo-hivemind-pitch-practice.svg">
 </template>

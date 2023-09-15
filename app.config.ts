@@ -19,7 +19,6 @@ export default defineAppConfig({
     header: {
       logo: true,
       showLinkIcon: true,
-      exclude: [],
       fluid: false,
     },
     footer: {
