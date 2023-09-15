@@ -1,10 +1,9 @@
 export default defineAppConfig({
   docus: {
-    title: "Pitch Practice Hive Mind",
+    title: "Hivemind",
     description:
-      "Every member's valuable knowledge and experience in one place.",
-    image:
-      "https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png",
+      "The Pitch Practice community's valuable knowledge and experience about sales in one place.",
+    image: "/meta-image.jpg",
     socials: {
       instagram: "pitch.practice",
     },
@@ -26,7 +25,7 @@ export default defineAppConfig({
     footer: {
       credits: {
         icon: "material-symbols:mic-rounded",
-        text: "Powered by Pitch Practice",
+        text: "Brought to you by Pitch Practice",
         href: "https://www.instagram.com/pitch.practice/",
       },
     },
