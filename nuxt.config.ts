@@ -37,6 +37,8 @@ export default defineNuxtConfig({
         docSearch: {
           indexName: "netlify_5f628b0e-8bb6-41c7-ad1f-b941716df428_master_all",
         },
+        // @ts-ignore
+        transformItems: (items) => items,
       },
     },
   },
