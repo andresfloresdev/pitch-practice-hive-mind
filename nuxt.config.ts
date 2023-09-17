@@ -6,6 +6,13 @@ export default defineNuxtConfig({
     "@nuxtjs/plausible",
     // https://github.com/nuxt/devtools
     "@nuxt/devtools",
+    // [
+    //   "@nuxtjs/algolia",
+    //   {
+    //     apiKey: "2fae4c7e2cd6079feac3cb49160542f9",
+    //     applicationId: "BY3IEY8A5V",
+    //   },
+    // ],
   ],
   app: {
     head: {
@@ -17,11 +24,10 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       algolia: {
-        applicationId: "R2IYF7ETH7",
-        apiKey: "599cec31baffa4868cae4e79f180729b",
-        langAttribute: "lang",
+        applicationId: "BY3IEY8A5V",
+        apiKey: "2fae4c7e2cd6079feac3cb49160542f9",
         docSearch: {
-          indexName: "docsearch",
+          indexName: "netlify_5f628b0e-8bb6-41c7-ad1f-b941716df428_master_all",
         },
       },
     },
