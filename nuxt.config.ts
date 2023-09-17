@@ -26,6 +26,7 @@ export default defineNuxtConfig({
       algolia: {
         applicationId: "BY3IEY8A5V",
         apiKey: "2fae4c7e2cd6079feac3cb49160542f9",
+        langAttribute: "lang",
         docSearch: {
           indexName: "netlify_5f628b0e-8bb6-41c7-ad1f-b941716df428_master_all",
         },
