@@ -23,6 +23,13 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
+      content: {
+        // @ts-ignore
+        // TODO: fix types
+        documentDriven: {
+          host: "https://hivemind.pitchpractice.ca",
+        },
+      },
       algolia: {
         applicationId: "BY3IEY8A5V",
         apiKey: "2fae4c7e2cd6079feac3cb49160542f9",
